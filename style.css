@@ -1,0 +1,55 @@
+/* Global Styles */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color:skyblue;
+    color: #333;
+  }
+  
+  /* Navigation Styles */
+  nav ul {
+    list-style-type: disc;
+    margin: auto;
+    padding-inline-start: 0cm;
+    background-color: black;
+  }
+  
+  nav ul li {
+    display: flexbox;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+  
+  /* Heading and Paragraph Styles */
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: normal;
+  }
+  
+  .intro {
+    background-color: #fff;
+    padding: initial;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
